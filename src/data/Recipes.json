@@ -2,14 +2,14 @@
     {
         "slug": 1,
         "title": "Shahi Falooda, A Traditional Indian Dessert",
-        "shortDesc":"Falooda is a popular dessert not only in Mumbai (Bombay) where it is thought to have originated but also in the rest of the country. This chilled drink-dessert is the perfect way to cool off in the summer heat",
+        "shortDesc":"Falooda is a popular dessert not only in Mumbai (Bombay) where it is thought to have \noriginated but also in the rest of the country. This chilled \ndrink-dessert is the perfect way to cool off in the summer heat",
         "category": "Dessert",
         "time": "40 min",
         "servings": 2,
         "img": {
           "url": "https://www.thespruceeats.com/thmb/Mhgyk99axWOEn6oa2PSxp0HRt9g=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/falooda-indian-dessert-809651654-5abed1b6875db90037976925.jpg",
-          "height": 300,
-          "width": 500
+          "height": 200,
+          "width": 400
         },
         "ingredients": [
           "1/2 cup fine rice vermicelli",
@@ -43,14 +43,14 @@
       {
         "slug": 2,
         "title": "Sandesh Mishti-Bengali Dessert",
-        "shortDesc":"No Bengali meal is complete without mishti or sweets and none is more loved by the Bengalis than Sandesh. It is surprisingly easy to make. Being a milk-based sweet, Sandesh doesn’t last long so consume it as soon as possible. Given how tasty it is, that shouldn’t be a problem.",
+        "shortDesc":"No Bengali meal is complete without mishti or sweets and none is more loved by \nthe Bengalis than Sandesh. It is surprisingly easy to make. Being a milk-based \nsweet, Sandesh doesn’t last long so consume it as soon as possible. Given how \ntasty it is, that shouldn’t be a problem.",
         "category": "Dessert",
         "time": "15 min",
         "servings": "10-12",
         "img": {
           "url": "https://www.thespruceeats.com/thmb/AgYRI0RsZGDZIn3Dj7Rens7ZI9w=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/3244991150_9c7f008761_o-5835aedf5f9b58d5b15308ce.jpg",
-          "height": 300,
-          "width": 500
+          "height": 200,
+          "width": 400
         },
         "ingredients": [
             "14 oz./400 g. fresh paneer (hang to drain whey completely)",
@@ -84,14 +84,14 @@
       {
         "slug": 3,
         "title": "Caramel Custard",
-        "shortDesc":"This easy-to-make pudding is popular all over India but made especially well by the Parsis, Mangaloreans (both from Western India) and the Anglo-Indians. It can be steamed in a pressure cooker or baked in the oven",
+        "shortDesc":"This easy-to-make pudding is popular all over India but made especially well by the \nParsis, Mangaloreans (both from Western India) and the Anglo-Indians. It can be \nsteamed in a pressure cooker or baked in the oven",
         "category": "Dessert",
         "time": "2 hrs",
         "servings": "4-6",
         "img": {
           "url": "https://www.thespruceeats.com/thmb/lWfbtvVQOJvNQkyB7I1V8aFimNc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4247062952_531b892880_o-56a510475f9b58b7d0dabe0a.jpg",
-          "height": 300,
-          "width": 500
+          "height": 200,
+          "width": 400
         },
         "ingredients": [
             "4 cups full cream milk (about 1 liter)",
@@ -124,14 +124,14 @@
       {
         "slug": 4,
         "title": "Indian Gulab Jamun",
-        "shortDesc":"Gulab jamun (or gulaab jamun) is among India's most popular desserts and it's often referred to as Indian doughnuts.This delicious treat consists of soft, melt-in-your-mouth, fried dumplings that are traditionally made of thickened or reduced milk and soaked in rose-flavored sugar syrup",
+        "shortDesc":"Gulab jamun (or gulaab jamun) is among India's most popular desserts and it's often \nreferred to as Indian doughnuts.This delicious treat consists of soft, melt-in-your-\nmouth, fried dumplings that are traditionally made of thickened or reduced milk and \nsoaked in rose-flavored sugar syrup",
         "category": "Dessert",
         "time": "50 mins",
         "servings": "4-6",
         "img": {
           "url": "https://www.thespruceeats.com/thmb/XQpLedt8URhtAAqkHXHchHn8IyQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/gulab-jamun-146275796-5835b27c3df78c6f6a855d65.jpg",
-          "height": 300,
-          "width": 500
+          "height": 200,
+          "width": 400
         },
         "ingredients": [
             "6 cups water",
@@ -172,14 +172,14 @@
       {
         "slug": 5,
         "title": "Malabi Rose Water Milk Pudding",
-        "shortDesc":"The iconic Israeli dessert, known as malabi, has its roots in centuries-old recipes for puddings made of rice flour and almond or cow's milk - which can be found throughout the Middle East, Turkey, and Mediterranean Europe. A close cousin of muhallabia, as the spoon sweet is known in the Arab world, today's Israeli malabi is often made with cornstarch instead of rice flour. Silky textured and light, the flower-scented pudding is topped with sweet syrup and nuts or shredded coconut.",
+        "shortDesc":"The iconic Israeli dessert, known as malabi, has its roots in centuries-old recipes \nfor puddings made of rice flour and almond or cow's milk - which can be found \nthroughout the Middle East, Turkey, and Mediterranean Europe. A close cousin of \nmuhallabia, as the spoon sweet is known in the Arab world, today's Israeli malabi is \noften made with cornstarch instead of rice flour. Silky textured and light, the \nflower-scented pudding is topped with sweet syrup and nuts or shredded coconut.",
         "category": "Dessert",
         "time": "15 mins",
         "servings": "6-8",
         "img": {
           "url": "https://www.thespruceeats.com/thmb/hQ3Ezp__H72WJp-6iCRebCyoWr0=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/malabi-rosewater-milk-pudding-4163433-hero-01-2392fd6122b4476eba90be42540a8ac5.jpg",
-          "height": 300,
-          "width": 500
+          "height": 200,
+          "width": 400
         },
         "ingredients": [
             "3 cups whole milk (2% milk is also fine; divided)",
@@ -206,14 +206,14 @@
       {
         "slug": 6,
         "title": "Jalebi - Indian Celebrartion Sweet",
-        "shortDesc":"Jalebi is a hot favorite on any special occasion be it a birthday, wedding or festival. Jalebis, though mostly eaten by themselves, can also be soaked in warm milk.",
+        "shortDesc":"Jalebi is a hot favorite on any special occasion be it a birthday, wedding or festival. \nJalebis, though mostly eaten by themselves, can also be soaked in warm milk.",
         "category": "Dessert",
         "time": "115 mins",
         "servings": "4-6",
         "img": {
           "url": "https://www.thespruceeats.com/thmb/_iaTjkl88lorpH96Pc7AtoVhzbQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/jalebi-deep-fried-dessert-1957798-hero-01-871fe89e15d14aa88721406c63d23ee6.jpg",
-          "height": 300,
-          "width": 500
+          "height": 200,
+          "width": 400
         },
         "ingredients": [
             "2 cups flour (self-rising)",
