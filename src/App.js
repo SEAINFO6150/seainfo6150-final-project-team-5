@@ -27,13 +27,19 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/foo">Foo</Link>
+              <Link to="/foo">Breakfast</Link>
             </li>
             <li>
-              <Link to="/bar/hats/sombrero">Bar</Link>
+              <Link to="/bar/hats/sombrero">Get in touch</Link>
             </li>
             <li>
-              <Link to="/baz">Baz</Link>
+              <Link to="/baz">About Us</Link>
+            </li>
+            <li>
+              <Link to="/error">Error</Link>
+            </li>
+            <li>
+              <Link to="/baz">Individual</Link>
             </li>
           </ul>
         </nav>
