@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 1fr;
+  }
+
+  .container {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    /* background: #999; */
+    border: 1px dashed black;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;   
+    gap: 20px;
+}
