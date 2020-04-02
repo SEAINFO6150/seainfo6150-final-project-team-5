@@ -7,6 +7,10 @@ import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 
+import recipes from "./data/Recipes.json";
+
+import CategoriesList from "./Categories/CategoriesList.jsx";
+
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
 const externalContent = {
@@ -27,7 +31,16 @@ function App() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/foo">Breakfast</Link>
+              <Link to="/categories/Breakfast">Breakfast</Link>
+            </li>
+            <li>
+              <Link to="/categories/Lunch">Lunch</Link>
+            </li>
+            <li>
+              <Link to="/categories/Dinner">Dinner</Link>
+            </li>
+            <li>
+              <Link to="/categories/Dessert">Dessert</Link>
             </li>
             <li>
               <Link to="/bar/hats/sombrero">Get in touch</Link>
@@ -48,7 +61,12 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
+        <Route path="/categories/:selectedCategory"
+         exact
+         render={({match}) => (
+           <CategoriesList recipes={recipes} selectedCategory={match.params.selectedCategory}/>
+         )}
+        />
         {/* passing parameters via a route path */}
         <Route
           path="/bar/:categoryId/:productId"
