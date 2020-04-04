@@ -15,7 +15,7 @@ const HealthyRecipe = props => {
                  {/* <button class ="button" */}
                      {/* onClick={()=> alert(props.HealthyRecipes.slug)} >  */}
 
-                     <p class="link"> <Link to={`/IndividualItem/IndividualItem/${props.HealthyRecipes.slug}`}> view recipe</Link> </p> 
+                     <p class="link"> <Link to={`/item/${props.HealthyRecipes.slug}`}> view recipe</Link> </p> 
                 {/* </button> */}
              
             </div>
