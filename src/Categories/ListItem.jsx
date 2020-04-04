@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import styles from "./ListItem.module.css";
 
 import ItemImage from "./ItemImage.jsx";
@@ -20,7 +21,8 @@ const ListItem = props => {
                     <p>{props.recipe.title}</p>
                     <p>{props.recipe.shortDesc}</p>
                     <p>
-				        <ItemDetailButton recipe={props.recipe}/>
+                    <Link to={`/item/${props.recipe.slug}`}>View Recipe</Link> 
+				        {/* <ItemDetailButton recipe={props.recipe}/> */}
 			        </p>
                 </div>    
             </div>
