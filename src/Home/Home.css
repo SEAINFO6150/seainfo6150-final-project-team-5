@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 1fr;
+}
+
+img{
+    margin-top: 2%;
+    margin-left: 7%;
+    width: 1000px;
+    height: 250px;
+    position: relative;
+    border-color: #FEF2E4;
+    border-style: solid;
+}
+
+.SubText{
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FEF2E4;
+}
+
+ul{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(19em,1fr)) ; 
+}
+
+.container {
+    list-style: none;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #C60000;
+    border-radius: 10px;
+    gap: 20px;
+}
+
+.link{
+    display: inline-block;
+    padding-left: 90px;
+}

@@ -1,16 +1,22 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import styles from "./App.css";
+// import recipes from "./data/Recipes.json";
+import mustTryRecipes from "./data/MustTryRecipes.json";
+import HealthyRecipes from "./data/HealthyRecipes.json";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
 import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
+import GetInTouch from "./GetInTouch/GetInTouch.jsx";
+import IndividualItem from "./IndividualItem/IndividualItem.jsx";
 
 import recipes from "./data/Recipes.json";
 
 import CategoriesList from "./Categories/CategoriesList.jsx";
-import IndividualItem from "./IndividualItem/IndividualItem.jsx";
+// import IndividualItem from "./IndividualItem/IndividualItem.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -25,44 +31,34 @@ function App() {
   return (
     <Router>
       <header>
+      <h1 align = "center"> Foodwali </h1>
         <nav>
-          <ul>
             {/* these links should show you how to connect up a link to a specific route */}
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/categories/Breakfast">Breakfast</Link>
-            </li>
-            <li>
-              <Link to="/categories/Lunch">Lunch</Link>
-            </li>
-            <li>
-              <Link to="/categories/Dinner">Dinner</Link>
-            </li>
-            <li>
-              <Link to="/categories/Dessert">Dessert</Link>
-            </li>
-            <li>
-              <Link to="/bar/hats/sombrero">Get in touch</Link>
-            </li>
-            <li>
-              <Link to="/baz">About Us</Link>
-            </li>
-            {/* <li>
-              <Link to="/item/slug">Individual</Link>
-            </li> */}
-            <li>
-              <Link to="/error">Error</Link>
-            </li>
-          
+        <ul class="topnav">
+          <li><a href="/" >Home</a></li>
+          <li><a href="/foo">Category</a>
+            <ul class="ulul">
+              <li><a href="/categories/Breakfast" >Breakfast</a></li>
+              <li><a href="/categories/Lunch" >Lunch</a></li>
+              <li><a href="/categories/Dinner" >Dinner</a></li>
+              <li><a href="/categories/Dessert" >Dessert</a></li>    
           </ul>
-        </nav>
+          </li>
+          <li><a href="/baz" >About Us</a></li> 
+          <li><a href="/GetInTouch/GetInTouch" >Get in touch</a></li>
+        </ul> 
+      </nav>
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/" exact component={Home} />
+        {/* <Route path="/" exact component={Home} /> */}
+        <Route path = "/" 
+         exact
+         render={() => <Home mustTryRecipes={mustTryRecipes} HealthyRecipes={HealthyRecipes}/>}
+       />
+        
+        <Route path="/GetInTouch/GetInTouch" exact component={GetInTouch} />
         <Route path="/categories/:selectedCategory"
          exact
          render={({match}) => (
@@ -95,7 +91,7 @@ function App() {
           )}
         />
         <Route
-          path="/baz"
+          path="/item/:slug"
           exact
           render={() => <Baz content={externalContent} />}
         />
