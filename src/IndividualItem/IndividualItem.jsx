@@ -14,7 +14,7 @@ const IndividualItem = ({slug}) =>  {
 
 return <div className = {styles.background}>
  
-  <nav>
+  {/* <nav>
   <p>FoodWali</p> 
   <ul>
    <li><a href="/">Home</a></li>
@@ -29,7 +29,7 @@ return <div className = {styles.background}>
    <li><a href="/baz">About Us</a></li> 
    
    </ul> 
-  </nav>  
+  </nav>   */}
   
   {recipe.map((recipeDetails,index)=>{
   if(recipeDetails.slug == slug){
