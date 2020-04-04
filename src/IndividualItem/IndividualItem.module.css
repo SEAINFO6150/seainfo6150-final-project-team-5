@@ -130,7 +130,7 @@ nav ul a {
   text-decoration: none;
   padding: 10px 15px;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 nav ul li {
   position: relative;
