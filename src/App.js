@@ -1,11 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import styles from "./App.css";
+import recipes from "./data/Recipes.json";
+import mustTryRecipes from "./data/MustTryRecipes.json";
+import HealthyRecipes from "./data/HealthyRecipes.json";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
 import Bar from "./Bar/Bar.jsx";
 import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
+import GetInTouch from "./GetInTouch/GetInTouch.jsx";
+import IndividualItem from "./IndividualItem/IndividualItem.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -20,35 +26,43 @@ function App() {
   return (
     <Router>
       <header>
+      <h1 align = "center"> Foodwali </h1>
         <nav>
-          <ul>
+          {/* <ul> */}
             {/* these links should show you how to connect up a link to a specific route */}
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/foo">Breakfast</Link>
-            </li>
-            <li>
-              <Link to="/bar/hats/sombrero">Get in touch</Link>
-            </li>
-            <li>
-              <Link to="/baz">About Us</Link>
-            </li>
-            <li>
-              <Link to="/error">Error</Link>
-            </li>
-            <li>
-              <Link to="/baz">Individual</Link>
-            </li>
-          </ul>
+            {/* <li> */}
+            <div class ="topnav"> 
+            <a href="/" class ="active"> Home </a>
+            {/* </li> */}
+            {/* <li> */}
+              <a href="/foo" class="link">Breakfast</a>
+            {/* </li> */}
+            {/* <li> */}
+              <a href="/GetInTouch/GetInTouch" class="link">Get in touch</a>
+            {/* </li> */}
+            {/* <li> */}
+              <a href="/baz" class="link">About Us</a>
+            {/* </li> */}
+            {/* <li> */}
+              <a href="/error" class = "link">Error</a>
+            {/* </li> */}
+            {/* <li> */}
+              <a href="/baz" class="link">Individual</a>
+            {/* </li> */}
+          {/* </ul> */}
+          </div>
         </nav>
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/foo" exact component={Foo} />
+        {/* <Route path="/" exact component={Home} /> */}
+        <Route path = "/" 
+         exact
+         render={() => <Home mustTryRecipes={mustTryRecipes} HealthyRecipes={HealthyRecipes}/>}
+       />
+        
+        <Route path="/GetInTouch/GetInTouch" exact component={GetInTouch} />
         {/* passing parameters via a route path */}
         <Route
           path="/bar/:categoryId/:productId"
@@ -63,10 +77,13 @@ function App() {
           )}
         />
         <Route
-          path="/baz"
+          path="/item/:slug"
           exact
-          render={() => <Baz content={externalContent} />}
-        />
+          render={({match}) => (
+            <IndividualItem categoryId={match.params.categoryId} slug={match.params.slug} />
+            )
+           }
+          />
         <Route component={Error} />
       </Switch>
     </Router>

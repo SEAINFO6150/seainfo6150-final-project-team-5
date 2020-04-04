@@ -1,0 +1,25 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 250%;
+    text-shadow: 1px 1px 1px #C60000;
+    color: #FEF2E4;
+}
+
+.topnav{
+    background-color: #FEF2E4;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 5px 70px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: palevioletred;
+}
