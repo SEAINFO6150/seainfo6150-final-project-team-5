@@ -10,6 +10,7 @@ import Error from "./Error/Error.jsx";
 import recipes from "./data/Recipes.json";
 
 import CategoriesList from "./Categories/CategoriesList.jsx";
+import IndividualItem from "./IndividualItem/IndividualItem.jsx";
 
 // here is some external content. look at the /baz route below
 // to see how this content is passed down to the components via props
@@ -48,12 +49,13 @@ function App() {
             <li>
               <Link to="/baz">About Us</Link>
             </li>
+            {/* <li>
+              <Link to="/item/slug">Individual</Link>
+            </li> */}
             <li>
               <Link to="/error">Error</Link>
             </li>
-            <li>
-              <Link to="/baz">Individual</Link>
-            </li>
+          
           </ul>
         </nav>
       </header>
@@ -80,11 +82,24 @@ function App() {
             />
           )}
         />
+         <Route
+          path="/item/:slug"
+          exact
+          render={({ match }) => (
+            // getting the parameters from the url and passing
+            // down to the component as props
+            <IndividualItem
+              // categoryId={match.params.categoryId}
+              slug={match.params.slug}
+            />
+          )}
+        />
         <Route
           path="/baz"
           exact
           render={() => <Baz content={externalContent} />}
         />
+         {/* <Route path="/item" exact component={IndividualItem} /> */}
         <Route component={Error} />
       </Switch>
     </Router>
