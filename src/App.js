@@ -32,22 +32,22 @@ function App() {
     <Router>
       <header>
       <h1 align = "center"> Foodwali </h1>
-        <nav>
-            {/* these links should show you how to connect up a link to a specific route */}
-        <ul class="topnav">
-          <li><a href="/" >Home</a></li>
-          <li><a href="/foo">Category</a>
-            <ul class="ulul">
-              <li><a href="/categories/Breakfast" >Breakfast</a></li>
-              <li><a href="/categories/Lunch" >Lunch</a></li>
-              <li><a href="/categories/Dinner" >Dinner</a></li>
-              <li><a href="/categories/Dessert" >Dessert</a></li>    
-          </ul>
-          </li>
-          <li><a href="/baz" >About Us</a></li> 
-          <li><a href="/GetInTouch/GetInTouch" >Get in touch</a></li>
-        </ul> 
-      </nav>
+      <div class="navbar">
+        <a href="/">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Category 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="/categories/Breakfast">Breakfast</a>
+            <a href="/categories/Lunch">Lunch</a>
+            <a href="/categories/Dinner">Dinner</a>
+            <a href="/categories/Dessert">Dessert</a>
+          </div>
+        </div> 
+        <a href="/Baz/Baz">About Us</a>
+        <a href="/GetInTouch/GetInTouch">Get in touch</a>
+      </div>
       </header>
       {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
@@ -59,6 +59,7 @@ function App() {
        />
         
         <Route path="/GetInTouch/GetInTouch" exact component={GetInTouch} />
+        <Route path="/Baz/Baz" exact component={Baz} />
         <Route path="/categories/:selectedCategory"
          exact
          render={({match}) => (

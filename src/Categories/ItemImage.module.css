@@ -1,11 +1,8 @@
 .itemImage {
     position: relative;
-
+    float: left;
     box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
-
-    width: 10rem;
+    width: 90%;
     height: 15rem;
-    
     border-radius: 5px;
-
 }
