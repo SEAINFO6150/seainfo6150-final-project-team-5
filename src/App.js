@@ -32,7 +32,9 @@ function App() {
   return (
     <Router>
       <header>
-      <h1 align = "center"> Foodwali </h1>
+        <div id="titleDiv">
+          <h1 align = "center" class="title"> Foodwali </h1>
+        </div>
       <div class="navbar">
         <a href="/">Home</a>
         <div class="dropdown">

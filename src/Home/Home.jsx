@@ -10,10 +10,12 @@ const Home = props => {
       <head> 
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </head>
-      <img src="/images/Food2.jpg" alt="Food"/>
+    
+      <div id="headContainer">
+      <img class ="homeImage" src="/images/Food2.jpg" alt="Food"/>
       <p class="SubText"> Must try recipes </p>
       <div className={styles.container}>
-      <ul> 
+      <ul class="subCategory"> 
               
         {props.mustTryRecipes.map(mustTryRecipes => (
             <li key={mustTryRecipes.slug}>
@@ -26,7 +28,7 @@ const Home = props => {
       </div>
         <p class="SubText"> Healthy recipes </p> 
        <div className={styles.container}>
-      <ul>
+      <ul class="subCategory">
           {props.HealthyRecipes.map(HealthyRecipes =>(
             <li key={HealthyRecipes.slug}>
 
@@ -41,7 +43,7 @@ const Home = props => {
         <a href="/Baz/Baz" class="link">About us   </a>
         <a href="GetInTouch/GetInTouch" class="link"> Get in touch   </a>
       </div>
-
+      </div>
       </html>
     )
   }

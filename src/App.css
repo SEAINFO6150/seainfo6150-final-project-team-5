@@ -1,10 +1,15 @@
-h1{
+.title{
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 250%;
     text-shadow: 1px 1px 1px #C60000;
     color: #FEF2E4;
     margin-bottom: 5%;
+}
+
+#titleDiv{
+    background-color: #FD974F;
+    height: 80px;
 }
 
 .navbar {
