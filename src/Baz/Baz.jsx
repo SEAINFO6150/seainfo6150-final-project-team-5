@@ -38,7 +38,6 @@ const Baz = props => {
             ))}            
             </div>
             <div className={styles.row4}>
-            <a href = ''>Subscribe</a>
             <a href = '/GetInTouch/GetInTouch'>Share your feedback</a>
             <a href = '/GetInTouch/GetInTouch'>Get in touch</a>
             </div>
