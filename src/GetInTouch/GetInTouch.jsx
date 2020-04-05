@@ -34,22 +34,20 @@ class GetInTouchForm extends React.Component {
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
                 </head>
                 <form onSubmit = {this.handleSubmit} >
-                <div>  
-                    <ul> 
-                    <li> 
+                <div id="divPart">  
+                    <ul id="GetInTouchList"> 
+                    <li > 
                     {/* <label className = {styles.name}> Name </label>
                     <input type = "text" onChange = {this.handleChange} id = "box"/> */}
-                    <input class="input-effect" type = "text" name = "fullname"></input>
-                        <label> Your name</label>
+                    <input class="input-effect" type = "text" name = "fullname"></input><br/>
+                        <label> Your name </label>
                         <span class = "focus-border"></span>
-                    {/* <label> Email </label>
-                    <input type = "text" id = "box"/> */}
+                        <br/>
 
-                    <input class="input-effect" type = "text" Email = "fullname"></input>
+                    <input class="input-effect" type = "text" Email = "fullname"></input><br/>
                         <label> Your email</label>
-                        <span class = "focus-border"></span><br/>
+                        <span class = "focus-border"></span><br/><br/>
 
-                    {/* <div className = "form-check">  */}
                         <label> 
                             <input type = "radio" name ="options" value = "Drop us a recipe" checked = {true} className = "form-check-input" />
                             Drop us a recipe
@@ -59,11 +57,9 @@ class GetInTouchForm extends React.Component {
                         </label>
                         <label> OR upload your recipe </label>
                         <input type = "file" />
-                    {/* </div> */}
                     <br/>
                     <input onClick = {this.handleShare} value ="SHARE" id = "button"/>
 
-                    {/* <div className = "form-check"> */}
                         <label>
                             <input type = "radio" name = "options" value = "Share your feedback" className = "form-check-input" />
                             Share your feedback
@@ -71,9 +67,7 @@ class GetInTouchForm extends React.Component {
                         <label>
                             <textarea id ="textArea"/>
                         </label>
-                    {/* </div> */}
                     <input onClick = {this.handleSubmit} value = "SUBMIT" id = "button"/>
-                 {/* </div> */}
                  </li>
                  </ul>
                  </div>
