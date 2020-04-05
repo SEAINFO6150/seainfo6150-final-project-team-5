@@ -1,67 +1,47 @@
 [
-{
-    "slug":8,
-    "title":"Paneer Butter Masala",
-    "shortDesc":"A rich and creamy dish of paneer, tomato, butter and cashew sauce. The dish has a lovely tang coming from the tomatoes and is slightly sweet with a creamy and velvety feel to it.",
-    "category":"Lunch",
-    "time":"40 min",
-    "servings":4,
-    "img":{
-       "url":"https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2013/04/paneer-butter-masala-1.jpg",
-       "height":300,
-       "width":500
-    },
-    "ingredients":[
-       "FOR PREPARING CASHEW PASTE:",
-       "18 to 20 whole cashews",
-       "⅓ cup hot water for soaking cashews",
-       "FOR PREPARING TOMATO PUREE",
-       "2 cups diced tomatoes or 300 grams tomatoes or 4 to 5 medium size - pureed",
-       "FOR MAKING PANEER BUTTER MASALA",
-       "2 tablespoons butter or 1 tablespoon oil + 1 or 2 tablespoons butter",
-       "1 tej patta (indian bay leaf)",
-       "1 inch ginger and 3 to 4 garlic - crushed or ground in a mortar and pestle",
-       "½ to 1 teaspoon kashmiri red chili powder or deghi mirch - if using any other chilli powder you can add ¼ to ½ teaspoon",
-       "1.5 cups water or add as required",
-       "1 inch ginger julienned, reserve a few for garnishing",
-       "1 or 2 green chili - slit (reserve a few for garnishing)",
-       "200 to 250 grams paneer (cottage cheese) - cubed or diced",
-       "1 teaspoon kasuri methi (dry fenugreek leaves) - optional",
-       "½ to 1 teaspoon garam masala or tandoori masala",
-       "2 to 3 tablespoons low-fat cream or 1 to 2 tablespoons heavy whipping cream - optional",
-       "¼ to 1 teaspoon sugar - optional, add as required depending on the sourness of the tomatoes",
-       "salt as required - check notes below for adding sugar",
-       "FOR GARNISHING:",
-       "1 to 2 tablespoons chopped coriander leaves (cilantro leaves) for garnishing - optional",
-       "a few ginger julienne",
-       "1 tablespoon low fat cream 1 tablespoon heavy whipping cream - optional",
-       "1 to 2 teaspoons butter - optional"
-    ],
-    "recipe":[
-       "Preparation:",
-       "Soak 18 to 20 cashews in a hot water for 20 to 30 minutes. When the cashews are soaking, you can prep the other ingredients like chopping tomatoes, preparing ginger-garlic paste, slicing paneer etc.",
-       "Then drain and add the soaked cashews in a blender or grinder.",
-       "Add 2 to 3 tablespoons water and grind to a smooth paste without any tiny bits or pieces of cashews.",
-       "In the same blender add 2 cups of diced or roughly chopped tomatoes. No need to blanch the tomatoes before blending.",
-       "Blend to a smooth tomato puree. Keep aside. Don’t add any water while blending the tomatoes.",
-       "Making makhani gravy:",
-       "Melt butter in a pan on a low flame. Add bay leaf and fry for 2 to 3 seconds or till the oil become fragrant.",
-       "Add ginger-garlic paste and saute for some seconds till the raw aroma disappears.",
-       "Add the tomato puree and stir well. Cook for 5 to 6 minutes. Then add kashmiri red chili powder and stir again. Continue to saute till the oil starts to leave the sides of the tomato paste. The tomato paste will thicken considerably and will start coming together as one whole lump. ",
-       "Then add cashew paste and stir well. Saute the cashew paste for a few minutes till the oil begins to leave the sides of the masala paste.",
-       "The cashew paste will begin to cook fast. Approx 3 to 4 minutes on a low flame. So keep stirring non-stop.",
-       "Making Paneer Butter Masala:",
-       "Add water and mix very well. Simmer on a low flame.",
-       "The curry will come to a boil.",
-       "After 2 to 3 minutes of boiling, add ginger julienne. Reserve a few for garnishing. The curry will also begin to thicken.",
-       "Add julienned ginger and green chillies, salt and sugar and simmer till the curry begins to thicken.",
-       "After 3 to 4 minutes, add 1 or 2 slit green chillies. also add salt as per taste and ½ to 1 teaspoon sugar (optional). ",
-       "You can add sugar from ¼ tsp to 1 teaspoon or more depending on the sourness of the tomatoes. Sugar is optional and you can skip it too. If you add cream, then you will need to add less sugar.",
-       "Mix very well and simmer for a minute.",
-       "After the gravy thickens to your desired consistency, then add the paneer cubes and stir gently. i keep the gravy to a medium consistency. ",
-       "After that add crushed kasuri methi (dry fenugreek leaves), garam masala and cream. Gently mix and then switch off the flame."
-    ]
- },
+   {
+      "slug":13,
+      "title":"Egg Curry (Andey Ki Curry)",
+      "shortDesc":"Egg curry ranks high on the list of comfort foods.",
+      "category":"Lunch",
+      "time":"40 min",
+      "servings":"2-3",
+      "img":{
+         "url":"https://www.thespruceeats.com/thmb/E3KUdOBM3NEQNVwuOugWqh9PXJ8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-1064616852-cd54f73689da45ed91f68d63035c3c86.jpg",
+         "height":300,
+         "width":500
+      },
+      "ingredients":[
+         "6 hard-boiled eggs",
+         "5 tbsp. cooking oil (vegetable, canola, or sunflower)",
+         "2 medium-sized onion (cut into quarters)",
+         "3 medium-sized tomatoes (cut into quarters)",
+         "2 green chilies",
+         "2 tsp. garlic paste",
+         "2 tsp. ginger paste",
+         "2 tsp. coriander powder",
+         "1 tsp. cumin powder",
+         "1 tsp. garam masala powder",
+         "1/2 tsp. turmeric powder",
+         "1/2 tsp. red chili powder",
+         "Salt to taste"
+        
+      ],
+      "recipe":[
+       
+       "Heat the remaining oil in the same pan and add the paste you just made. Fry for 2 to 3 minutes.",
+ 
+       "Add the ginger and garlic pastes, all the dry spices (coriander powder, cumin powder, garam masala powder, turmeric powder, and red chili powder) then mix and fry till the oil begins to separate from the masala (onion-tomato-spice mix).",
+ 
+       "Add 1 tomato and saute until it turns soft and mushy.",
+ 
+       "Add finely chopped onions and cook for 2-3 minutes till translucent.",
+ 
+       "Add 1 tsp cumin seeds. Let them splutter.",
+ 
+       "Turn off the fire and garnish with chopped coriander leaves and the slit green chilies (if using). Serve hot with plain boiled Basmati rice and a vegetable side dish."
+      ]
+   },
  {
     "slug":6,
     "title":"Jalebi - Indian Celebrartion Sweet",
