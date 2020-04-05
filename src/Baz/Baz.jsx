@@ -5,21 +5,21 @@ const Baz = () => {
     return (
         <div className={styles.container}>
             <div className={styles.row1}>
-                <img src="https://image.shutterstock.com/image-photo/healthy-vegan-food-quinoa-lentils-600w-1254071608.jpg"></img>
+                <img src="/images/Food3.jpg"></img>
                 <p>Welcome to Foodwali. This is a place where we share our passion with the world - delicious healthy recipes. Everything you see here is made from scratch with non-processed natural foods. Most of our recipes are meat, dairy, gluten, and refined-sugar free, and they contain a list of all of the goodness that you will treat your body to by preparing and eating them. We hope you will love the website just as much as we do. If you have any questions, feel free to contact us or take a look at our philosophy. Have a healthy day eyeryone!</p>
             </div>
             <div className={styles.row2}>
                 <h1>Meet the team</h1>
                 <div class={styles.team}>
-                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/12316191_742910982509821_7814111956148214512_n.jpg?_nc_cat=108&_nc_sid=7aed08&_nc_oc=AQlkGH-VCRbTVeOa8tZalU1qKmq2WDlYro5qiFi_kyOprlR9scGdnrh9hVuq1SBirUx0sv1EN3u5_FHPa3lOcgiH&_nc_ht=scontent-sea1-1.xx&oh=62f304c0fc2f2b9880044717c7c7816e&oe=5EAF9F41"></img>
-                    <p>Ramya Hebbbar</p>
+                    <img src="/Members/Ramya.jpg"></img>
+                    <p>Ramya Hebbar</p>
                 </div>
                 <div class={styles.team}>
-                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/25498196_1707264755998084_1215383357448628177_n.jpg?_nc_cat=103&_nc_sid=7aed08&_nc_oc=AQnYcW7D4I9rkWiTyW9NJiKR77Ny6Rz4InmYLgWURp6pKLrOWolhzHEI5CggfPCqAL7KjcU8x7E9-l0A36aARYAz&_nc_ht=scontent-sea1-1.xx&oh=030ff6b87bb988aad84c2f858e18887c&oe=5EAEA128"></img>
+                    <img src="/Members/Megha.jpeg"></img>
                     <p>Megha Bhattad</p>
                 </div>
                 <div class={styles.team}>
-                    <img src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/21742988_1508879722502474_1086176485839809433_n.jpg?_nc_cat=100&_nc_sid=110474&_nc_oc=AQlSyDihfun8-5DpZUQi0mqYSWRvOmb7fVXN7GwoWMX74pBxLCoZ5HeGOhs0dK0UX5yxObGbK91N6MtCa8b-HZ70&_nc_ht=scontent-sea1-1.xx&oh=41a38f6eacd087cf7ad7c0f7cb48e8df&oe=5EAEC9EC"></img>
+                    <img src="/Members/Bharathi.jpg"></img>
                     <p>Bharathi Madhu</p>
                 </div>
                 <div class={styles.team}>

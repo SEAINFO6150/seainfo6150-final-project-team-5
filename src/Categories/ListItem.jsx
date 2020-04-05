@@ -12,20 +12,6 @@ const ListItem = props => {
     if(isMatch)
     {
         return (
-            // <div className={styles.container}>
-            //     <div id={styles.image}>
-    		// 	    <ItemImage url={props.recipe.img.url} title={props.recipe.title} />
-		    //     </div>
-
-            //     <div>
-            //         <p>{props.recipe.title}</p>
-            //         <p>{props.recipe.shortDesc}</p>
-            //         <p>
-            //         <Link to={`/item/${props.recipe.slug}`}>View Recipe</Link> 
-			// 	        {/* <ItemDetailButton recipe={props.recipe}/> */}
-			//         </p>
-            //     </div>    
-            // </div>
             <div className={styles.container}>
                 <ItemImage url={props.recipe.img.url} title={props.recipe.title} />
                 <div className = {styles.div}>

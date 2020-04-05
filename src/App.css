@@ -8,6 +8,9 @@ h1{
 }
 
 .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     overflow: hidden;
     background-color: #333;
     width: 100%;
@@ -15,10 +18,8 @@ h1{
 }
   
 .navbar a {
-    float: left;
     font-size: 16px;
     color: white;
-    width: 31%;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,7 +52,8 @@ h1{
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color: #FEF2E4;
+    color: #C60000;
 }
 
 .dropdown-content {
