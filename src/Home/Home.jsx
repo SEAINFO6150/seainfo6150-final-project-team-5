@@ -39,7 +39,7 @@ const Home = props => {
       <div>
         <a href="GetInTouch/GetInTouch" class="link"> Share your feedback  </a>
         <a href="/" class="link"> Subscribe   </a>
-        <a href=" " class="link">About us   </a>
+        <a href="/Baz/Baz" class="link">About us   </a>
         <a href="GetInTouch/GetInTouch" class="link"> Get in touch   </a>
       </div>
 

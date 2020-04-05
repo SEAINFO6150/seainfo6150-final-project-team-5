@@ -1,0 +1,42 @@
+.container{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    color:red;
+    background-color: white;
+}
+.container h1{
+    font-size: 160px;
+    margin: 0;
+    font-weight:900px;
+    letter-spacing: 20px;
+    background: url(https://images.unsplash.com/photo-1549007953-2f2dc0b24019?ixlib=rb-1.2.1&auto=format&fit=crop&w=675&q=80);
+    background-position: center;
+    color: #ffffff;
+    background-repeat: no-repeat; 
+}
+.container h2 {
+    font-size: 250%;
+}
+.container h4 {
+    font-size: 200%;
+}
+
+.container a{
+    text-decoration: none;
+    background : #e55039aa;
+    color: #fff;
+    padding :12px 24px;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+.container a:hover{
+    background: #e55039;
+}
+
