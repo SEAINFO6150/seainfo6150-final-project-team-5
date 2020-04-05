@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from 'prop-types';
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import styles from "./ListItem.module.css";
 
 import ItemImage from "./ItemImage.jsx";
@@ -12,17 +13,15 @@ const ListItem = props => {
     {
         return (
             <div className={styles.container}>
-                <div>
-    			    <ItemImage url={props.recipe.img.url} title={props.recipe.title} />
-		        </div>
-
-                <div id={styles.content}>
-                    <h2>{props.recipe.title}</h2>
-                    <p>{props.recipe.shortDesc}</p>
+                <ItemImage url={props.recipe.img.url} title={props.recipe.title} />
+                <div className = {styles.div}>
+                    <h1 className = {styles.title}>{props.recipe.title} </h1>
+                    <p className ={styles.text}> {props.recipe.shortDesc} </p>  
                     <p>
-				        <ItemDetailButton recipe={props.recipe}/>
+                    <Link to={`/item/${props.recipe.slug}`}>View Recipe</Link> 
+				        {/* <ItemDetailButton recipe={props.recipe}/> */}
 			        </p>
-                </div>    
+                </div>
             </div>
         )
     }

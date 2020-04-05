@@ -1,14 +1,58 @@
-import React from 'react'
-import Form from "../Form/Form";
+  import React from "react";
+import PropTypes from 'prop-types';
+import RecipeCaller from "./recipeCaller.jsx";
+import HealthyRecipe from "./healthyRecipe.jsx";
+import styles from "./Home.css";
 
-const Home = () => {
+const Home = props => {
     return (
-        <div>
-            The home page
-            <img src="/images/treefrog.jpg" alt="tree frog" />
-            <Form />
-        </div>
-    )
-}
+      <html> 
+      <head> 
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+      </head>
+      <img src="/images/Food2.jpg" alt="Food"/>
+      <p class="SubText"> Must try recipes </p>
+      <div className={styles.container}>
+      <ul> 
+              
+        {props.mustTryRecipes.map(mustTryRecipes => (
+            <li key={mustTryRecipes.slug}>
 
-export default Home
+            <RecipeCaller mustTryRecipes={mustTryRecipes}></RecipeCaller>
+  
+        </li>
+          ))}
+      </ul>
+      </div>
+        <p class="SubText"> Healthy recipes </p> 
+       <div className={styles.container}>
+      <ul>
+          {props.HealthyRecipes.map(HealthyRecipes =>(
+            <li key={HealthyRecipes.slug}>
+
+              <HealthyRecipe HealthyRecipes={HealthyRecipes}></HealthyRecipe>
+
+            </li>
+          ))}
+      </ul>
+      </div>
+      <div>
+        <a href="GetInTouch/GetInTouch" class="link"> Share your feedback  </a>
+        <a href="/" class="link"> Subscribe   </a>
+        <a href="/Baz/Baz" class="link">About us   </a>
+        <a href="GetInTouch/GetInTouch" class="link"> Get in touch   </a>
+      </div>
+
+      </html>
+    )
+  }
+
+Home.propTypes = {
+    mustTryRecipes: PropTypes.array.isRequired
+};
+
+Home.propTypes = {
+  HealthyRecipes: PropTypes.array.isRequired
+};
+
+export default Home;
