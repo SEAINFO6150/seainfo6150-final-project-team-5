@@ -4,6 +4,7 @@ import styles from "./App.css";
 // import recipes from "./data/Recipes.json";
 import mustTryRecipes from "./data/MustTryRecipes.json";
 import HealthyRecipes from "./data/HealthyRecipes.json";
+import TopRecipes from "./data/TopRecipes.json";
 
 import Home from "./Home/Home.jsx";
 import Foo from "./Foo/Foo.jsx";
@@ -59,7 +60,7 @@ function App() {
        />
         
         <Route path="/GetInTouch/GetInTouch" exact component={GetInTouch} />
-        <Route path="/Baz/Baz" exact component={Baz} />
+        <Route path="/Baz/Baz" exact render={() => <Baz TopRecipes={TopRecipes}/>} />
         <Route path="/categories/:selectedCategory"
          exact
          render={({match}) => (

@@ -1,0 +1,138 @@
+[
+   {
+      "slug":25,
+      "title":"Chicken Tikka Masala",
+      "shortDesc":"Aromatic, spiced and a delicious Chicken Tikka Masala.",
+      "category":"Dinner",
+      "time":"40 min",
+      "servings":4,
+      "img":{
+         "url":"https://www.thespruceeats.com/thmb/jbN3FZDnSOqh9NdsCnBXO1h2bC4=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/instant-pot-tikka-masala-recipe-4589222-final-5c8feea2c9e77c0001eb1c8e.jpg",
+         "height":300,
+         "width":500
+      },
+      "ingredients":[
+         "1 onion, diced",
+         "5 garlic cloves, minced",
+         "4 boneless, skinless chicken breasts, cut into cubes",
+         "One 28-ounce can tomato purée",
+         "1 cup plain yogurt",
+         "3 tablespoons garam masala",
+         "1 tablespoon cumin",
+         "1 teaspoon coriander",
+         "1 teaspoon cayenne pepper",
+         "Salt and freshly ground black pepper to taste",
+         "1 cup heavy cream",
+         "¼ cup fresh cilantro",
+         "Steamed rice, for serving"
+      ],
+      "recipe":[
+         "In your slow cooker, combine the onion with the garlic and cubed chicken breasts.",
+         "In a large bowl, stir together the tomato puree with the yogurt, garam masala, cumin, coriander and cayenne pepper; season with salt and pepper.",
+         "Pour the mixture over the chicken in the slow cooker.",
+         "Cook on low for 6 hours.",
+         "Stir in the heavy cream and cook for 10 minutes more.",
+         "Garnish the chicken with ¼ cup chopped fresh cilantro. Serve with steamed rice."
+      ]
+   },
+    {
+        "slug":12,
+        "title":"Chana Biryani",
+        "shortDesc":"Aromatic, spiced and a delicious dum cooked and layered biriyani with white chickpeas.",
+        "category":"Lunch",
+        "time":"40 min",
+        "servings":2,
+        "img":{
+           "url":"https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2016/01/chole-biryani-recipe.jpg",
+           "height":300,
+           "width":500
+        },
+        "ingredients":[
+           "2 tbsp Ghee",
+           "1 tsp Cumin Seeds",
+           "3-4 Cloves",
+           "1 Black Cardamom",
+           "1 inch-Cinnamon Stick",
+           "3-4 green Cardamom",
+           "2 tbsp Ginger Garlic Paste",
+           "2 large Tomatoes, chopped",
+           "2 tsp Red Chilli Powder",
+           "½ tsp Turmeric Powder",
+           "Salt to taste",
+           "½ cup Yogurt, beaten",
+           "1½ cup Chickpeas, soaked & boiled",
+           "½ cups Mint Leaves",
+           "2-3 Green Chillies, slit",
+           "½ kg Rice, soaked & half boiled with whole spices & salt",
+           "Few saffron strands, soaked in water",
+           "1 tsp Kewra Essence",
+           "½ cup Fried Onion",
+           "Coriander leaves, finely chopped"
+        ],
+        "recipe":[
+           "Heat oil in a pan, add cumin seeds, cloves, black cardamom, cinnamon, star anise and green cardamom, cook for a minute.",
+           "Add ginger garlic paste and cook till raw smell goes off.",
+           "Add tomatoes, red chilli powder, turmeric powder, nutmeg powder, mace powder and salt to taste. Cook for 4-5 minutes.",
+           "Add yogurt and give it a good mix as it will start curdling.",
+           "Add chickpeas, mix well and cook for a minute.",
+           "Add mint leaves, green chillies and half of the barista, mix well.",
+           "Spread the rice evenly all over without breaking the grain.",
+           "Add saffron water, kewra essence and remaining barista. Cover and cook for 15-20 minutes.",
+           "Garnish with coriander leaves.",
+           "Serve hot raita."
+        ]
+     },
+     {
+        "slug":22,
+        "title":"Rajma Masala",
+        "shortDesc":"Delicious and flavourfull curry made with red kidney beans aka rajma.",
+        "category":"Dinner",
+        "time":"40 mins",
+        "servings":4,
+        "img":{
+           "url":"https://www.cookwithmanali.com/wp-content/uploads/2014/10/Rajma-Recipe.jpg",
+           "height":300,
+           "width":500
+        },
+        "ingredients":[
+           "1.25 cups rajma, soaked in enough water overnight or use 3 cups canned kidney beans",
+           "4.5 cups + ½ cup water, ½ cup to be added later on",
+           "2 tablespoons oil",
+           "2 bay leaves",
+           "2-3 green cardamom pods",
+           "3 black cardamom",
+           "1-2 cinnamon stick",
+           "2 onion, finely chopped",
+           "1.5 tablespoons ginger-garlic paste",
+           "4 tomatoes, made into a puree",
+           "½ teaspoon cumin powder",
+           "½ teaspoon coriander powder",
+           "¼ teaspoon red chili powder, or to taste",
+           "2 teaspoons rajma masala powder",
+           "salt, to taste"
+        ],
+        "recipe":[
+           "Preparation for Rajma Masala:",
+           "In a large bowl soak 1.25 cups of rajma (kidney beans) in enough water for 6-8 hours, preferably overnight.",
+           "In a pressure cooker add the rajma, 4.5 cups water, turmeric, salt and 2 tea bags [if using]. Stir and cook on high for 1-2 whistle, then set the heat to medium and cook for another 10-15 minutes.",
+           "The rajma is done when you can easily press it between your fingers. Remove the tea bags and set aside.",
+           "Heat 2 tablespoons of oil in a pan on medium heat, once the oil is hot add bay leaves, cardamom pods, cinnamon stick and black cardamom.",
+           "Saute for a minute.Add finely chopped onions and cook for 2-3 minutes till translucent.",
+           "Add finely chopped onions and cook for 2-3 minutes till translucent.",
+           "Add ginger-garlic paste and cook till raw smell goes away. This will take 3-4 minutes.",
+           "Once the ginger-garlic is done, add the fresh tomato puree and mix.",
+           "Cover the pan and let it cook for 10 minutes on medium heat. Stir once or twice in between.",
+           "After 10-12 minutes, the tomatoes are done when there's no raw smell.",
+           "Add the dry spices - cumin powder, rajma masala coriander powder and red chilli powder. Also add the salt and mix.",
+           "Cook the spices for 2 minutes or till oil starts oozing from the sides.",
+           "Add the cooked rajma and mix.",
+           "Add water to the curry [the same water which we used to boil the rajma]. You can add 1/2 cup more water here.",
+           "Cover the pan and cook the rajma curry for 20 minutes on medium-low heat.",
+           "After 20 minutes, the curry will thicken, you can adjust the consistency to preference. Switch off the flame.",
+           "In a small pan, heat 1 tablespoon of ghee or oil. Once hot add ginger julienne and chopped green chilli.",
+           "Saute for 1-2 minutes till they turn light brown in color.",
+           "Transfer tempering to the rajma masala. Also add chopped coriander leaves, crushed kasuri methi (dried fenugreek leaves), garam masala and mix.",
+           "Serve hot with rice or any Indian bread."
+        ]
+     }
+]

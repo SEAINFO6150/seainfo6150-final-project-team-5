@@ -1,7 +1,9 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import styles from "./Aboutus.module.css";
+import TopRecipe from "./TopRecipe.jsx";
 
-const Baz = () => {
+const Baz = props => {
     return (
         <div className={styles.container}>
             <div className={styles.row1}>
@@ -15,7 +17,7 @@ const Baz = () => {
                     <p>Ramya Hebbar</p>
                 </div>
                 <div class={styles.team}>
-                    <img src="/Members/Megha.jpeg"></img>
+                    <img src="/Members/Megha.jpg"></img>
                     <p>Megha Bhattad</p>
                 </div>
                 <div class={styles.team}>
@@ -29,18 +31,11 @@ const Baz = () => {
             </div>
             <h1>Our current favourites</h1>
             <div className={styles.row3}>
-                <div class={styles.recipes}>
-                    <img src="https://www.thespruceeats.com/thmb/lWfbtvVQOJvNQkyB7I1V8aFimNc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/4247062952_531b892880_o-56a510475f9b58b7d0dabe0a.jpg"></img>
-                    <p>Caramel Custard</p>
-                </div>
-                <div class={styles.recipes}>
-                    <img src="https://i2.wp.com/www.vegrecipesofindia.com/wp-content/uploads/2013/04/paneer-butter-masala-1.jpg"></img>
-                    <p>Paneer Butter Masala</p>
-                </div>
-                <div class={styles.recipes}>
-                    <img src="https://miro.medium.com/max/1024/1*QiBbXowXofmOEH8u8SaX3g.jpeg"></img>
-                    <p>Masala Dosa </p>
-                </div>
+            {props.TopRecipes.map(recipe => (
+                    <li key={recipe.slug}>
+                        <TopRecipe TopRecipes={recipe}></TopRecipe>
+                    </li>
+            ))}            
             </div>
             <div className={styles.row4}>
             <a href = ''>Subscribe</a>
@@ -50,5 +45,9 @@ const Baz = () => {
         </div>
     )
 }
+
+Baz.propTypes = {
+    TopRecipes: PropTypes.array.isRequired	
+};
 
 export default Baz
