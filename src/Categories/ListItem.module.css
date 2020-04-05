@@ -4,9 +4,9 @@
   }
 
 .container {
-    background: #eee;
+    background: #FEF2E4;
     border-radius: 15px;
-    margin-bottom: 20px;
+    border: 2px solid #C60000;
     padding: 10px;
     position: relative;
     box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
@@ -16,6 +16,10 @@
     height: 100%;
     flex-direction: row;
     flex-wrap: wrap;
-    /* align-content: center; */
     justify-content: space-between;
+}
+
+#content {
+    margin-left: 50%;
+    
 }

@@ -1,8 +1,8 @@
 .slugButton {
-    /* color: #fff; */
-    font-size: 1rem;
-    bottom: 10px;
-    border-radius: 0.65rem;
-    height: 2.5rem;
-    width: 100%;
+    /* background: #FD974F; */
+    font-size: 0.7rem;
+    /* bottom: 10px; */
+    /* border-radius: 0.65rem; */
+    height: 1.5rem;
+    position: static ;
 }
