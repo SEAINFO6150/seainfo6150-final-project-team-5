@@ -35,7 +35,7 @@ return <div className = {styles.background}>
   if(recipeDetails.slug == slug){
   return <div>
     <div className = {styles.heading}>
-      <h1>{recipeDetails.title}</h1>
+      <h1> {recipeDetails.title}</h1>
     </div>
     
     <div className = {styles.image}>

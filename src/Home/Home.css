@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     margin: 1fr;
+    margin-top: 0;
 }
 
 .homeImage{
