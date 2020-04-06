@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box;
-    margin: 1fr;
+    margin: 0;
 }
 
 img{
@@ -15,6 +15,7 @@ img{
 
 .SubText{
     margin-left: 5%;
+    margin-top: 3%;
     font-size: 20px;
     font-weight: bold;
     color: #FEF2E4;
