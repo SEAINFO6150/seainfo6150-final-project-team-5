@@ -1,6 +1,7 @@
 .main {
+margin-left: 20%;
 border-radius: 5px;
-width: 100%;
+width: 50%;
 background-color: #f2f2f2;
 border: none;
 padding: 40px;
@@ -28,4 +29,8 @@ cursor: pointer;
 
 .main input[type=submit]:hover {
 background-color: #ffad73;
+}
+
+.outer{
+    background-color: #FD974F;
 }

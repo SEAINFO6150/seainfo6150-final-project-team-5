@@ -28,6 +28,7 @@ class GetInTouchForm extends React.Component {
 
     render() {
         return (
+            <div class="outer"> 
             <div class="main">
                 <form>
                     <label for="name">Your Name</label>
@@ -53,6 +54,7 @@ class GetInTouchForm extends React.Component {
                     <textarea id="feedback" name="feedback" placeholder="Write something.."></textarea>
                     <input onClick={this.handleSubmitFeedback} type="submit" value="Share feedback"></input>
                 </form>
+            </div>
             </div>
         );
     }
