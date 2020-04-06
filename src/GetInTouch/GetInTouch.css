@@ -1,65 +1,36 @@
-
-li{
-    display: grid;
-    color: ivory;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: medium;
-    position: relative;
-    list-style: none;
-    bottom: 50px;
+.main {
+margin-left: 20%;
+border-radius: 5px;
+width: 50%;
+background-color: #f2f2f2;
+border: none;
+padding: 40px;
 }
 
-div{
-     background: #FD974F;
-} 
-
-#textArea{
-    border: solid 1px #805A3B;
-    margin: 20px 8px 8px 8px;
-    width: 76%;
-    display: block;
-    padding: 20px;
-    background-color: #FEF2E4;
+.main input[type=text], select, textarea {
+width: 100%; 
+padding: 12px; 
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px; 
+margin-bottom: 16px; 
+resize: vertical;
 }
 
-#button {
-    width: 30%;
-    height: 60%;
-    background-color: #FEF2E4;
-    font-size: 1rem;
-    font-family: 'Times New Roman', Times, serif;
-    position: relative;
-    border-radius: 7px;
-    border-style: solid;
-    border-color: #C60000;
-    text-align: center;
-    margin: 8px 8px 8px 8px;
-    color: black;
+.main input[type=submit] {
+background-color: #FD974F;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
 }
 
-/* #box{
-    height: 15%;
-    width: 30%;
-    padding: 10px;
-    border: solid 1px #805A3B;
-} */
+.main input[type=submit]:hover {
+background-color: #ffad73;
+}
 
-.input-effect {
-    width: 80%;
-    border-top-color: initial;
-    border-top-style: initial;
-    border-top-width: 0px;
-    border-right-color: initial;
-    border-right-style: initial;
-    border-bottom-color: rgba(138, 148, 159, 0.25);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    border-left-color: initial;
-    border-left-style: initial;
-    border-left-width: 0px;
-    padding: 4px 0;
-    border-bottom: 1px solid;
-    background-color: transparent;
-    margin-top: 12%;
+.outer{
+    background-color: #FD974F;
 }
