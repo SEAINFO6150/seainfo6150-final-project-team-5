@@ -38,9 +38,8 @@ const Home = props => {
           ))}
       </ul>
       </div>
-      <div>
+      <div class="footer">
         <a href="GetInTouch/GetInTouch" class="link"> Share your feedback  </a>
-        <a href="/" class="link"> Subscribe   </a>
         <a href="/Baz/Baz" class="link">About us   </a>
         <a href="GetInTouch/GetInTouch" class="link"> Get in touch   </a>
       </div>
