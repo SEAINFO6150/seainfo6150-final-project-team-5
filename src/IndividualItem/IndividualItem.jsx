@@ -68,7 +68,9 @@ return <div className = {styles.background}>
         ))}
       </ul>
   </div>
+  <p></p>
   <h2 className = {styles.h3Title}>Steps</h2>
+  <p></p>
   <div className = {styles.steps}>
       <ul>
         {recipeDetails.recipe.map(recipe => (
