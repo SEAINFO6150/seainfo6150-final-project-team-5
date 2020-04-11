@@ -8,11 +8,19 @@ import ListItem from "./ListItem.jsx";
 
 const CategoriesList = props => {
     return (
-        <div className={styles.container}>
-            {props.recipes.map(recipe => ( 
-              <ListItem recipe={recipe} selCat={props.selectedCategory} />
-            ))}            
-        </div>
+        <html>
+            <div className={styles.mainContainer}>
+                <div className={styles.categoryTitle}>
+                    <h3>{props.selectedCategory}</h3>
+                </div>
+
+                <div className={styles.container}>
+                    {props.recipes.map(recipe => ( 
+                    <ListItem recipe={recipe} selCat={props.selectedCategory} />
+                    ))}            
+                </div>
+            </div>
+        </html>
     )
 }
 

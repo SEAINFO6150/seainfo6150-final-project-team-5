@@ -14,12 +14,11 @@ const ListItem = props => {
         return (
             <div className={styles.container}>
                 <ItemImage url={props.recipe.img.url} title={props.recipe.title} />
-                <div className = {styles.div}>
+                <div className = {styles.textContainer}>
                     <h1 className = {styles.title}>{props.recipe.title} </h1>
                     <p className ={styles.text}> {props.recipe.shortDesc} </p>  
-                    <p>
-                    <Link to={`/item/${props.recipe.slug}`}>View Recipe</Link> 
-				        {/* <ItemDetailButton recipe={props.recipe}/> */}
+                    <p className = {styles.link}>
+                        <Link to={`/item/${props.recipe.slug}`}>View Recipe ></Link> 
 			        </p>
                 </div>
             </div>
