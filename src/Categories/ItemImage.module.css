@@ -1,6 +1,6 @@
 .itemImage {
     position: relative;
-    float: left;
+    margin: 1.25rem;
     box-shadow: 1px 8px 10px 0 rgb(72, 84, 84);
     width: 90%;
     height: 15rem;

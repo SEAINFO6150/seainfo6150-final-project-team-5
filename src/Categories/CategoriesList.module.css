@@ -5,13 +5,24 @@
 
   .container {
     list-style: none;
-    padding: 20px;
-    margin: 20px;
-    background: #805A3B;
-    border: 2px solid black;
-    border-radius: 10px;
+    padding: 25px;
+    border-radius: 5px;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr) ;   
     gap: 20px;
+}
+
+.categoryTitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px #C60000;
+    color: #FEF2E4;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.mainContainer {
+  background-color: #FD974F;
 }
