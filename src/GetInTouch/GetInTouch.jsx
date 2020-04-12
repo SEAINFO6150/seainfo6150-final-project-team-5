@@ -9,7 +9,7 @@ class GetInTouchForm extends React.Component {
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmitRecipe = this.handleSubmitRecipe.bind(this);
-        this.handleSubmitFeedback = this.handleSubmitFeedback.bind(this);
+        // this.handleSubmitFeedback = this.handleSubmitFeedback.bind(this);
     }
 
     handleChange(event) {
@@ -17,18 +17,17 @@ class GetInTouchForm extends React.Component {
     }
 
     handleSubmitRecipe(event) {
+        window.location.reload(false);
         alert('Thank you ' + this.state.value+' for sharing your recipe with us. We will review and feature it on Foodwali ');
-        event.preventDefault();
-    }
-
-    handleSubmitFeedback(event) {
-        alert('Thank you ' + this.state.value+' for sharing your feedback with us.');
         event.preventDefault();
     }
 
     render() {
         return (
             <div class="outer"> 
+            <div class="title">
+                <h3>Get Featured</h3>
+            </div>
             <div class="main">
                 <form>
                     <label for="name">Your Name</label>
@@ -37,7 +36,7 @@ class GetInTouchForm extends React.Component {
                     <label for="email">Your email</label>
                     <input type="text" id="email" name="email" placeholder="Your email.."></input>
 
-                    <input type="radio" id="submitrecipe" name="option" value="submitrecipe" checked></input>
+    
                     <label for="submitrecipe">Drop us a recipe</label><br></br>
                     <textarea id="recipe" name="recipe" placeholder="Write something.."></textarea>
                     <label> OR upload your recipe </label>
@@ -46,13 +45,6 @@ class GetInTouchForm extends React.Component {
                     <br></br>
                     <input onClick={this.handleSubmitRecipe} type="submit" value="Submit recipe"></input>
                     
-                    <br></br>
-                    <br></br>
-
-                    <input type="radio" id="submitfeedback" name="option" value="submitfeedback"></input>
-                    <label for="submitfeedback">Share your feedback</label><br></br>
-                    <textarea id="feedback" name="feedback" placeholder="Write something.."></textarea>
-                    <input onClick={this.handleSubmitFeedback} type="submit" value="Share feedback"></input>
                 </form>
             </div>
             </div>

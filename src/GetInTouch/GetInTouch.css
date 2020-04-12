@@ -1,10 +1,12 @@
 .main {
-margin-left: 20%;
+margin-left: 25%;
 border-radius: 5px;
 width: 50%;
 background-color: #f2f2f2;
 border: none;
 padding: 40px;
+border-style: dashed;
+border-color:#FD974F;
 }
 
 .main input[type=text], select, textarea {
@@ -33,4 +35,15 @@ background-color: #ffad73;
 
 .outer{
     background-color: #FD974F;
-}
+  }
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #C60000;
+    color: #FEF2E4;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    }
