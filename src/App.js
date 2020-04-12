@@ -13,6 +13,7 @@ import Baz from "./Baz/Baz.jsx";
 import Error from "./Error/Error.jsx";
 import GetInTouch from "./GetInTouch/GetInTouch.jsx";
 import IndividualItem from "./IndividualItem/IndividualItem.jsx";
+import Feedback from "./Feedback/Feedback.jsx";
 
 import recipes from "./data/Recipes.json";
 
@@ -62,6 +63,7 @@ function App() {
        />
         
         <Route path="/GetInTouch/GetInTouch" exact component={GetInTouch} />
+        <Route path="/ShareFeedback" exact component={Feedback} />
         <Route path="/Baz/Baz" exact render={() => <Baz TopRecipes={TopRecipes}/>} />
         <Route path="/categories/:selectedCategory"
          exact
@@ -94,6 +96,7 @@ function App() {
             />
           )}
         />
+        
         <Route
           path="/item/:slug"
           exact
