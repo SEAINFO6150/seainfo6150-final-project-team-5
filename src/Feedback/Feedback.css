@@ -1,69 +1,61 @@
-  .feed {
-    margin-left: 25%;
-    /* margin-right: 25%; */
-    border-radius: 5px;
-    width: 50%;
-    background-color: #f2f2f2;
-    border:none;
-    padding: 30px;
-    padding-bottom:  60px;
-    margin-top: -55px;
-    /* height:50%; */
-    height:560px;
-    border-style: dashed;
-    border-color:#FD974F;
-   
-    
-    }
-    .title {
-        font-family: 'Times New Roman', Times, serif;
-        font-weight: lighter;
-        font-size: 25px;
-        text-shadow: 1px 1px 1px #C60000;
-        color: #FEF2E4;
-        text-align: center;
-        padding-top: 10px;
-    }
-    .feed input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical;
-    }
-    
-    .feed input[type=submit] {
-    background-color: #FD974F;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    }
-    
-    .feed input[type=submit]:hover {
-    background-color: #ffad73;
-    }
-    
-    .outer{
-         background-color: #FD974F; 
-         
-    }
-  
-    .image{
-        text-align: center;
-        /* margin:10px; */
-        height:auto;
-        width:180%;
-        max-width: 100%;
-        /* position: relative; */
-        /* margin-top: -30px; */
-     
-        display:inline-block;
-        margin: 0 auto;
-      }
-    
- 
+.feed {
+margin-left: 25%;
+border-radius: 5px;
+width: 50%;
+background-color: #f2f2f2;
+border:none;
+padding: 30px;
+border-style: dashed;
+border-color:#FD974F;
+}
+
+.title {
+font-family: 'Times New Roman', Times, serif;
+font-weight: lighter;
+font-size: 25px;
+text-shadow: 1px 1px 1px #C60000;
+color: #FEF2E4;
+text-align: center;
+padding-top: 10px;
+margin-bottom: 10px;
+}
+
+.feed input[type=text], select, textarea {
+width: 100%; 
+padding: 12px; 
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px; 
+margin-bottom: 16px; 
+resize: vertical;
+}
+
+.feed input[type=submit] {
+background-color: #FD974F;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+.feed input[type=submit]:hover {
+background-color: #ffad73;
+}
+
+.outer {
+background-color: #FD974F; 
+padding-top: 5px;
+padding-bottom: 50px;
+}
+
+.image{
+text-align: center;
+height:auto;
+width:180%;
+max-width: 100%;
+display:inline-block;
+margin: 0 auto;
+}
+
