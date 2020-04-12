@@ -4,6 +4,7 @@ import RecipeCaller from "./recipeCaller.jsx";
 import HealthyRecipe from "./healthyRecipe.jsx";
 import styles from "./Home.css";
 
+
 const Home = props => {
     return (
       <html> 
@@ -39,9 +40,9 @@ const Home = props => {
       </ul>
       </div>
       <div class="footer">
-        <a href="GetInTouch/GetInTouch" class="link"> Share your feedback  </a>
+        <a href="/ShareFeedback" class="link"> Share your feedback  </a>
         <a href="/Baz/Baz" class="link">About us   </a>
-        <a href="GetInTouch/GetInTouch" class="link"> Get in touch   </a>
+        <a href="GetInTouch/GetInTouch" class="link"> Get in touch   </a>  
       </div>
       </div>
       </html>
