@@ -8,7 +8,7 @@ const Baz = props => {
         <div className={styles.container}>
             <div className={styles.row1}>
                 <img src="/images/Food3.jpg"></img>
-                <p>Welcome to Foodwali. This is a place where we share our passion with the world - delicious healthy recipes. Everything you see here is made from scratch with non-processed natural foods. Most of our recipes are meat, dairy, gluten, and refined-sugar free, and they contain a list of all of the goodness that you will treat your body to by preparing and eating them. We hope you will love the website just as much as we do. If you have any questions, feel free to contact us or take a look at our philosophy. Have a healthy day eyeryone!</p>
+                <p>Welcome to Foodwali. This is a place where we share our passion of traditional food with the world which is widely appreciated for its fabulous use of herbs and spice. Indian cuisine is known for its large assortment of dishes. The cooking style varies from region to region and is largely divided into South Indian & North Indian cuisine. If you have any questions, feel free to contact us or take a look at our philosophy. Have a healthy day everyone!</p>
             </div>
             <div className={styles.row2}>
                 <h1>Meet the team</h1>

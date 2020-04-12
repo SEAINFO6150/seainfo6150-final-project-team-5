@@ -83,6 +83,15 @@
     background-color: #ddd;
 }
 
+.dropdown-content a:focus {
+    background-color: #ddd;
+    color: #C60000;
+}
+
 .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:focus-within .dropdown-content {
     display: block;
 }
