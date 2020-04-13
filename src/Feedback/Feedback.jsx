@@ -45,6 +45,7 @@ class Feedback extends React.Component {
                 alert('You must provide a valid email');
             } else {
                 alert('Thank you ' + this.state.name+' for sharing your feedback with us.');
+                window.location.reload(false);
             }
         }
         event.preventDefault();
