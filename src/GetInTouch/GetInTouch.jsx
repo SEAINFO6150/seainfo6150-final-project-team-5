@@ -36,7 +36,7 @@ class GetInTouchForm extends React.Component {
             alert('You must provide your email');
         }
         else if (this.state.recipe==='' || this.state.recipe===null || this.state.recipe===undefined) {
-            alert('You must provide your feedback');
+            alert('Please share your recipe before submitting');
         }
         else {
             const pattern = /[a-zA-Z0-9]+[\.]?([a-zA-Z0-9]+)?[\@][a-z]{3,9}[\.][a-z]{2,5}/g;
