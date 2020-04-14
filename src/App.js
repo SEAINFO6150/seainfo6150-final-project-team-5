@@ -50,7 +50,7 @@ function App() {
           </div>
         </div> 
         <a href="/Baz/Baz">About Us</a>
-        <a href="/GetInTouch/GetInTouch">Get featured</a>
+        <a href="/GetInTouch/GetInTouch">Get Featured</a>
       </div>
       </header>
       {/* A <Switch> looks through its children <Route>s and

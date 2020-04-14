@@ -12,7 +12,7 @@ const HealthyRecipe = props => {
                 <img class = "listImage" src={props.HealthyRecipes.img.url} alt="image"/>
                     <h1 class="name"> {props.HealthyRecipes.title} </h1>
 
-                     <p class="recipeLink"> <Link to={`/item/${props.HealthyRecipes.slug}`}> View Recipe ></Link> </p> 
+                     <p> <Link class ="recipeLink" to={`/item/${props.HealthyRecipes.slug}`}> View Recipe ></Link> </p> 
              
             </div>
         </html>
