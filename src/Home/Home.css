@@ -14,26 +14,27 @@
 }
 
 .SubText{
-    margin-left: 5%;
-    margin-top: 3%;
+    margin-left: 2rem;
+    margin-top: 2rem;
     font-size: 20px;
     font-weight: bold;
     color: #FEF2E4;
 }
 
 .subCategory{
-    margin-top: 40px;
     display: grid;
-    grid-template-columns: repeat(3, minmax(19em,1fr)) ; 
+    grid-template-columns: repeat(3, 1fr) ; 
     list-style: none;
+    gap: 20px;
+    padding: 25px;
 }
 
 .container {
-    padding: 20px;
-    margin: 20px;
+    display: flex;
+    flex-flow:column;
+    justify-content: space-between;
     border: 2px solid #C60000;
     border-radius: 10px;
-    gap: 20px;
 }
 
 #headContainer{

@@ -8,19 +8,11 @@ const RecipeCaller = props => {
         <html>
             <head>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
-            </head>
+            </head>            
             <div class ="container">
-                {/* <div class = "buttonDiv">  */}
-                <img class = "listImage" src={props.mustTryRecipes.img.url} alt="image"/>
-
-                 {/* <button class ="button" */}
-                     {/* onClick={()=> alert(props.mustTryRecipes.slug)} >  */}
-                     <p class="name"> {props.mustTryRecipes.title} </p>
-                     <p> <Link to={`/item/${props.mustTryRecipes.slug}`}>View Recipe</Link></p>
-                {/* </button> */}
-                {/* </div> */}
-                {/* <div>
-                </div> */}
+                <img class="listImage" src={props.mustTryRecipes.img.url} alt="image"/>
+                <h3 class="name"> {props.mustTryRecipes.title} </h3>
+                <p class="recipeLink"> <Link to={`/item/${props.mustTryRecipes.slug}`}>View Recipe ></Link></p>
             </div>
         </html>
     );
