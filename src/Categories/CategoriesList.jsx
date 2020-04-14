@@ -19,6 +19,11 @@ const CategoriesList = props => {
                     <ListItem recipe={recipe} selCat={props.selectedCategory} />
                     ))}            
                 </div>
+                <div class="footer">
+                    <a href="/ShareFeedback" class="link"> Share your feedback  </a>
+                    <a href="/Baz/Baz" class="link">About us   </a>
+                    <a href="GetInTouch/GetInTouch" class="link"> Get featured   </a>  
+                </div>
             </div>
         </html>
     )

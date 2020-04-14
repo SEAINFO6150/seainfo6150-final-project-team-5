@@ -10,12 +10,12 @@ const HealthyRecipe = props => {
             </head>
             <div class ="container">
                 <img class = "listImage" src={props.HealthyRecipes.img.url} alt="image"/>
-                    <p class="name"> {props.HealthyRecipes.title} </p>
+                    <h1 class="name"> {props.HealthyRecipes.title} </h1>
 
                  {/* <button class ="button" */}
                      {/* onClick={()=> alert(props.HealthyRecipes.slug)} >  */}
 
-                     <p class="link"> <Link to={`/item/${props.HealthyRecipes.slug}`}> View Recipe</Link> </p> 
+                     <p class="recipeLink"> <Link to={`/item/${props.HealthyRecipes.slug}`}> View Recipe ></Link> </p> 
                 {/* </button> */}
              
             </div>
