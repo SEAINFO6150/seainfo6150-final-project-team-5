@@ -34,7 +34,7 @@ function App() {
     <Router>
       <header>
         <div id="titleDiv">
-          <h1 align = "center" class="title"> Foodwali </h1>
+          <h1 align = "center" class="hometitle"> Foodwali </h1>
         </div>
       <div class="navbar">
         <a href="/">Home</a>
