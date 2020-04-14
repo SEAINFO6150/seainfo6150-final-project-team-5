@@ -5,19 +5,49 @@ import { render } from "react-dom";
 class GetInTouchForm extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {value: ''};
-
+        this.state = {};    
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmitRecipe = this.handleSubmitRecipe.bind(this);
     }
 
-    handleChange(event) {
-        this.setState({value: event.target.value});
+    handleChange(e) {
+        if (e.target.name==='name'){
+            this.setState({  
+                name:e.target.value
+            });
+        }
+        if (e.target.name==='email') {
+            this.setState({  
+                email:e.target.value
+            });
+        }
+        if (e.target.name==='recipe') {
+            this.setState({  
+                recipe:e.target.value
+            });
+        }
     }
 
     handleSubmitRecipe(event) {
-        window.location.reload(false);
-        alert('Thank you ' + this.state.value+' for sharing your recipe with us. We will review and feature it on Foodwali ');
+        if (this.state.name==='' || this.state.name===null || this.state.name===undefined) {
+            alert('You must provide your name');
+        }
+        else if (this.state.email==='' || this.state.email===null || this.state.email===undefined) {
+            alert('You must provide your email');
+        }
+        else if (this.state.recipe==='' || this.state.recipe===null || this.state.recipe===undefined) {
+            alert('You must provide your feedback');
+        }
+        else {
+            const pattern = /[a-zA-Z0-9]+[\.]?([a-zA-Z0-9]+)?[\@][a-z]{3,9}[\.][a-z]{2,5}/g;
+            const result = pattern.test(this.state.email);
+            if (!result) {
+                alert('You must provide a valid email');
+            } else {
+                alert('Thank you ' + this.state.value+' for sharing your recipe with us. We will review and feature it on Foodwali ');
+                window.location.reload(false);
+            }
+        }
         event.preventDefault();
     }
 
@@ -30,16 +60,16 @@ class GetInTouchForm extends React.Component {
             <div class="main">
                 <form>
                     <label for="name">Your Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your name.." value={this.state.value} onChange={this.handleChange}></input>
+                    <input type="text" id="name" name="name" placeholder="Your name.." onChange={(e)=>{this.handleChange(e)}}></input>
 
                     <label for="email">Your email</label>
-                    <input type="text" id="email" name="email" placeholder="Your email.."></input>
+                    <input type="text" id="email" name="email" placeholder="Your email.." onChange={(e)=>{this.handleChange(e)}}></input>
 
     
                     <label for="submitrecipe">Drop us a recipe</label><br></br>
-                    <textarea id="recipe" name="recipe" placeholder="Write something.."></textarea>
+                    <textarea id="recipe" name="recipe" placeholder="Write something.." onChange={(e)=>{this.handleChange(e)}}></textarea>
                     <label> OR upload your recipe </label>
-                    <input type = "file" />
+                    <input id="recipe_file" type = "file" />
                     <br></br>
                     <br></br>
                     <input onClick={this.handleSubmitRecipe} type="submit" value="Submit recipe"></input>
