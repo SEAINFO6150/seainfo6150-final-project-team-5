@@ -9,7 +9,6 @@ class GetInTouchForm extends React.Component {
 
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmitRecipe = this.handleSubmitRecipe.bind(this);
-        // this.handleSubmitFeedback = this.handleSubmitFeedback.bind(this);
     }
 
     handleChange(event) {
@@ -25,7 +24,7 @@ class GetInTouchForm extends React.Component {
     render() {
         return (
             <div class="outer"> 
-            <div class="title">
+            <div class="GetFeaturedTitle">
                 <h3>Get Featured</h3>
             </div>
             <div class="main">
