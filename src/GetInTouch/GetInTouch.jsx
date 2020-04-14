@@ -72,11 +72,11 @@ class GetInTouchForm extends React.Component {
                     <input id="recipe_file" type = "file" />
                     <br></br>
                     <br></br>
-                    <input onClick={this.handleSubmitRecipe} type="submit" value="Submit recipe"></input>
-                    
+                    <input onClick={this.handleSubmitRecipe} type="submit" value="Submit recipe"></input>                  
                 </form>
+            </div>      
             </div>
-            </div>
+         
         );
     }
 }
