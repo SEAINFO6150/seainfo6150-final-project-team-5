@@ -1,36 +1,12 @@
 import React from "react";
-import _ from "lodash";
 import ReactDOM from 'react-dom';
 import PropTypes from 'prop-types';
 import styles from "./IndividualItem.module.css";
 import recipe from "../data/Recipes.json";
 import { Link } from 'react-router-dom';
-import { BrowserRouter } from 'react-router-dom';
-// import DropdownButton from 'react-bootstrap/DropdownButton';
-// import Dropdown from 'react-bootstrap/Dropdown';
-const IndividualItem = ({slug}) =>  {
-// const recipeDetails = recipe.find(recipes => recipes.slug === slug);
-// const IndividualItem = props => {
 
-return <div className = {styles.background}>
- 
-  {/* <nav>
-  <p>FoodWali</p> 
-  <ul>
-   <li><a href="/">Home</a></li>
-   <li><a href="/foo">Category</a>
-     <ul>
-       <li><a href="/categories/Breakfast">Breakfast</a></li>
-       <li><a href="/categories/Lunch">Lunch</a></li>
-       <li><a href="/categories/Dinner">Dinner</a></li>
-       <li><a href="/categories/Dessert">Dessert</a></li>    
-     </ul>
-     </li>
-   <li><a href="/baz">About Us</a></li> 
-   
-   </ul> 
-  </nav>   */}
-  
+const IndividualItem = ({slug}) =>  {
+return <div className = {styles.background}> 
   {recipe.map((recipeDetails,index)=>{
   if(recipeDetails.slug == slug){
   return <div>
@@ -79,8 +55,6 @@ return <div className = {styles.background}>
       </ul>
   </div>
   </div>
-  
-
 }
 })}
 </div>
