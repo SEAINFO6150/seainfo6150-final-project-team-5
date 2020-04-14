@@ -38,7 +38,7 @@ const Baz = props => {
             ))}            
             </div>
             <div className={styles.row4}>
-            <a href = '/ShareFeedbacks'>Share your feedback</a>
+            <a href = '/ShareFeedback'>Share your feedback</a>
             <a href = '/GetInTouch/GetInTouch'>Get featured</a>
             </div>
         </div>
