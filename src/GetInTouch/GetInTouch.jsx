@@ -65,7 +65,28 @@ class GetInTouchForm extends React.Component {
                     <label for="email">Your email</label>
                     <input type="text" id="email" name="email" placeholder="Your email.." onChange={(e)=>{this.handleChange(e)}}></input>
 
-    
+                    <label> Gender </label>
+                    <select id="gender">
+                        <option value="Female">Female</option>
+                        <option value="Male">Male</option>
+                    </select>
+                    <br/>
+
+                    <label> Is it a   </label>
+                    <input type="radio" id="veg" name="type" value="Vegeterian"></input>
+                    <label> Vegeterian </label>
+                    <input type="radio" id="nonveg" name="type" value="NonVegeterian"></input>
+                    <label> NonVegeteraian</label>
+                    <br/><br/>
+
+                    <label>Choose the category of the recipe </label>
+                    <select id="category">
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="dessert">Dessert</option>
+                    </select>
+
                     <label for="submitrecipe">Drop us a recipe</label><br></br>
                     <textarea id="recipe" name="recipe" placeholder="Write something.." onChange={(e)=>{this.handleChange(e)}}></textarea>
                     <label> OR upload your recipe </label>
