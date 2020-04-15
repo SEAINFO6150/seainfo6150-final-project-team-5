@@ -19,6 +19,11 @@
 }
 
 .container{
+    /* display: flex; 
+    flex-flow: column; */
+    padding: 5px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;  
     background-color: #FEF2E4;
 }
 
