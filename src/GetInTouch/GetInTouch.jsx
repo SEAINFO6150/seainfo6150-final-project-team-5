@@ -44,7 +44,7 @@ class GetInTouchForm extends React.Component {
             if (!result) {
                 alert('You must provide a valid email');
             } else {
-                alert('Thank you ' + this.state.value+' for sharing your recipe with us. We will review and feature it on Foodwali ');
+                alert('Thank you ' + this.state.name+' for sharing your recipe with us. We will review and feature it on Foodwali ');
                 window.location.reload(false);
             }
         }

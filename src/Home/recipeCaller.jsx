@@ -12,7 +12,7 @@ const RecipeCaller = props => {
             <div class ="container">
                 <img class="listImage" src={props.mustTryRecipes.img.url} alt="image"/>
                 <h3 class="name"> {props.mustTryRecipes.title} </h3>
-                <p class="recipeLink"> <Link to={`/item/${props.mustTryRecipes.slug}`}>View Recipe ></Link></p>
+                <p class="recipes"> <Link class ="recipeLink" to={`/item/${props.mustTryRecipes.slug}`}>View Recipe ></Link></p>
             </div>
         </html>
     );
