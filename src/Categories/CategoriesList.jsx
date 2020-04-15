@@ -20,9 +20,9 @@ const CategoriesList = props => {
                     ))}            
                 </div>
                 <div class="footer">
-                    <a href="/ShareFeedback" class="link"> Share your feedback  </a>
-                    <a href="/Baz/Baz" class="link">About us   </a>
-                    <a href="GetInTouch/GetInTouch" class="link"> Get featured   </a>  
+                    <a href="/ShareFeedback" class="link"> Share Your Feedback  </a>
+                    <a href="/Baz/Baz" class="link">About Us   </a>
+                    <a href="GetInTouch/GetInTouch" class="link"> Get Featured   </a>  
                 </div>
             </div>
         </html>
