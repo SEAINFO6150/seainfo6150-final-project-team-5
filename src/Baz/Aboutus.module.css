@@ -110,3 +110,8 @@
     display: inline;
     padding: 30px;
 }
+@media (min-width: 500px) {
+    .container {
+        overflow-x: hidden;
+    }
+  }
