@@ -8,6 +8,7 @@
     padding: 25px;
     border-radius: 5px;
     display: grid;
+    row-gap: 5px;
 }
 
 @media (min-width: 550px) {
