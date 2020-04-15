@@ -13,7 +13,7 @@ const Home = props => {
       </head>
     
         <div id="headContainer">
-          <img class ="homeImage" src="/images/Food2.jpg" alt="Food"/>
+          <img class ="homeImage" src="/images/Food2.jpg" alt="Food" />
           <p class="SubText"> Must try recipes </p>
           <div className={styles.container}>
             <ul class="subCategory">                 
